@@ -1,0 +1,70 @@
+:root {
+  --header-bg: #22d4ee;
+}
+
+body {
+  background: #ffffff;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+/* Header */
+.app-header {
+  background: var(--header-bg);
+  color: white;
+  padding: 18px 0;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .app-title { font-size: 34px; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .app-title { font-size: 28px; }
+}
+@media (max-width: 767px) {
+  .app-title { font-size: 22px; }
+}
+
+/* Filter Card */
+.filters-card {
+  padding: 12px;
+  border-radius: 10px;
+  background: transparent;
+  border: none;
+}
+
+.text-muted-sm {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* Controls size */
+.form-select-sm,
+.input-group-sm .form-control {
+  min-height: 40px;
+}
+
+.input-group-sm .btn {
+  min-height: 40px;
+}
+
+/* Responsive stacking */
+@media (max-width: 575.98px) {
+  .filters-wrapper .col-auto,
+  .filters-wrapper .col {
+    width: 100%;
+  }
+  .filters-wrapper .row {
+    gap: 10px;
+  }
+}
+
+/* Table */
+.table thead th {
+  font-weight: 600;
+}

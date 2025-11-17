@@ -1,0 +1,25 @@
+ [
+  { "id": 1, "name": "Acme Corp", "location": "Bengaluru", "industry": "SaaS", "employees": 250, "founded": 2015, "website": "https://acme.example" },
+  { "id": 2, "name": "Tech Labs", "location": "Hyderabad", "industry": "FinTech", "employees": 80, "founded": 2018, "website": "https://techlabs.example" },
+  { "id": 3, "name": "FutureWorks", "location": "Mumbai", "industry": "AI/ML", "employees": 120, "founded": 2017, "website": "https://futureworks.example" },
+  { "id": 4, "name": "Blue Solutions", "location": "Pune", "industry": "IT Services", "employees": 500, "founded": 2010, "website": "https://bluesolutions.example" },
+  { "id": 5, "name": "GreenData", "location": "Chennai", "industry": "Analytics", "employees": 60, "founded": 2019, "website": "https://greendata.example" },
+
+  { "id": 6, "name": "NovaTech", "location": "Bengaluru", "industry": "Cloud Computing", "employees": 200, "founded": 2016, "website": "https://novatech.example" },
+  { "id": 7, "name": "ByteForge", "location": "Mumbai", "industry": "SaaS", "employees": 95, "founded": 2020, "website": "https://byteforge.example" },
+  { "id": 8, "name": "FinSight", "location": "Hyderabad", "industry": "FinTech", "employees": 40, "founded": 2021, "website": "https://finsight.example" },
+  { "id": 9, "name": "DataLayer", "location": "Chennai", "industry": "Big Data", "employees": 150, "founded": 2014, "website": "https://datalayer.example" },
+  { "id": 10, "name": "CyberMatrix", "location": "Pune", "industry": "Cybersecurity", "employees": 320, "founded": 2011, "website": "https://cybermatrix.example" },
+
+  { "id": 11, "name": "CloudSprint", "location": "Hyderabad", "industry": "Cloud", "employees": 180, "founded": 2016, "website": "https://cloudsprint.example" },
+  { "id": 12, "name": "VisionX AI", "location": "Bengaluru", "industry": "AI/ML", "employees": 85, "founded": 2020, "website": "https://visionxai.example" },
+  { "id": 13, "name": "QuickCart", "location": "Mumbai", "industry": "E-Commerce", "employees": 260, "founded": 2013, "website": "https://quickcart.example" },
+  { "id": 14, "name": "HealTech", "location": "Pune", "industry": "HealthTech", "employees": 140, "founded": 2018, "website": "https://healtech.example" },
+  { "id": 15, "name": "BrightApps", "location": "Chennai", "industry": "Mobile Apps", "employees": 110, "founded": 2017, "website": "https://brightapps.example" },
+
+  { "id": 16, "name": "CodeSphere", "location": "Bengaluru", "industry": "IT Services", "employees": 420, "founded": 2009, "website": "https://codesphere.example" },
+  { "id": 17, "name": "InsightSoft", "location": "Hyderabad", "industry": "Analytics", "employees": 75, "founded": 2021, "website": "https://insightsoft.example" },
+  { "id": 18, "name": "UrbanPay", "location": "Mumbai", "industry": "FinTech", "employees": 130, "founded": 2015, "website": "https://urbanpay.example" },
+  { "id": 19, "name": "Softify", "location": "Pune", "industry": "Software Services", "employees": 210, "founded": 2012, "website": "https://softify.example" },
+  { "id": 20, "name": "AppWorks", "location": "Chennai", "industry": "App Development", "employees": 55, "founded": 2019, "website": "https://appworks.example" }
+]
