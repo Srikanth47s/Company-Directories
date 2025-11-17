@@ -1,7 +1,3 @@
-# Company-Directories
-
-# Company-Directories
-
 # Companies Directory – React Frontend Project
 
 # This project is a fully responsive React.js application for browsing, filtering, and sorting company data. It was developed as part of a frontend assignment to demonstrate skills in React, API integration, state management, and UI design using Bootstrap.
