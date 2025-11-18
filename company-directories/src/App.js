@@ -41,14 +41,15 @@ export default function App() {
     if (sort === "default") {
       const map = new Map(originalRef.current.map((c, i) => [c.id, i]));
       list.sort((a, b) => (map.get(a.id) ?? 0) - (map.get(b.id) ?? 0));
+      // return list.sort((a,b) => (a.id) - (b.id))
     } else {
       const [key, dir] = sort.split("_");
       // console.log(key,dir,"keydir")
       list.sort((a, b) => {
-        const av = (a[key] || "").toLowerCase();
-        const bv = (b[key] || "").toLowerCase();
-        if (av < bv) return dir === "asc" ? -1 : 1;
-        if (av > bv) return dir === "asc" ? 1 : -1;
+        const aValue = (a[key] || "").toLowerCase();
+        const bValue = (b[key] || "").toLowerCase();
+        if (aValue < bValue) return dir === "asc" ? -1 : 1;
+        if (aValue > bValue) return dir === "asc" ? 1 : -1;
         return 0;
       });
     }
