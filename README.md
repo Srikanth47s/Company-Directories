@@ -1,5 +1,7 @@
 # Companies Directory – React Frontend Project
 
+# Project live link - leafy-meringue-5558cc.netlify.app
+
 # This project is a fully responsive React.js application for browsing, filtering, and sorting company data. It was developed as part of a frontend assignment to demonstrate skills in React, API integration, state management, and UI design using Bootstrap.
 
 # The application loads company data from a mock API (companies.json) and allows users to:
